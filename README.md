@@ -10,10 +10,6 @@ A powerful Streamlit-based web application that summarizes PDF, Word, TXT, and P
 - 📘 Word (DOCX) Summarization
 - 📄 TXT File Summarization
 - 📊 PPT (PowerPoint) Summarization
-- 🧠 Powered by HuggingFace DistilBART
-- ⚡ GPU Support (if available)
-- 🎯 Adjustable Summary Length (Short / Medium / Long)
-- 📥 Download Summary as TXT
 
 ---
 
@@ -33,10 +29,15 @@ A powerful Streamlit-based web application that summarizes PDF, Word, TXT, and P
 GenAI-Document-Summarizer/
 │
 ├── app.py # Main entry file
+
 ├── generic_page.py # Upload & UI logic
+
 ├── utils.py # Model loading & summarization logic
+
 ├── requirements.txt # Dependencies
+
 ├── .gitignore
+
 └── assets/
 
 ## 🧠 Model Used
