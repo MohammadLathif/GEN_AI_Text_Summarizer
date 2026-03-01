@@ -1,0 +1,14 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE files
+.idea/
+
+# Test files
+GENAI_Summary.docx
+GENAI_Summary.txt
+Project.py
