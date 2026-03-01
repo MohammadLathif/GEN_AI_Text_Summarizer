@@ -10,6 +10,9 @@ A powerful Streamlit-based web application that summarizes PDF, Word, TXT, and P
 - 📘 Word (DOCX) Summarization
 - 📄 TXT File Summarization
 - 📊 PPT (PowerPoint) Summarization
+- ⚡ GPU Support (if available)
+- 🎯 Adjustable Summary Length (Short / Medium / Long)
+- 📥 Download Summary as TXT
 
 ---
 
@@ -27,7 +30,8 @@ A powerful Streamlit-based web application that summarizes PDF, Word, TXT, and P
 
 ## 📂 Project Structure
 GenAI-Document-Summarizer/
-│
+
+
 ├── app.py # Main entry file
 
 ├── generic_page.py # Upload & UI logic
